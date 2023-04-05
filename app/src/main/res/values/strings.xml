@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">D_Dhillon-Zachery_COMP304-402_Lab4</string>
+    <string name="app_name">Library App</string>
     <string name="student_id">Student ID</string>
     <string name="password">Password</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="librarian_login">Librarian Login</string>
     <string name="student_login">Student Login</string>
+    <string name="librarian_id">Librarian ID</string>
+    <string name="horror">Horror</string>
+    <string name="action">Action</string>
+    <string name="add_book">Add Book</string>
 </resources>
