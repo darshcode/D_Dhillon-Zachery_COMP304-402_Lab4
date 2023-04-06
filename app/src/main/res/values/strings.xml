@@ -10,4 +10,14 @@
     <string name="horror">Horror</string>
     <string name="action">Action</string>
     <string name="add_book">Add Book</string>
+    <string name="title">Title</string>
+    <string name="details">Details</string>
+    <string name="borrow_book">Borrow Book</string>
+    <string name="id">ID:</string>
+    <string name="name">Name:</string>
+    <string name="past_rentals">Past Rentals:</string>
+    <string name="book_name">Book Name:</string>
+    <string name="author_name">Author Name:</string>
+    <string name="description">Description</string>
+    <string name="add_book_Button">Add Book</string>
 </resources>
