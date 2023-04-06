@@ -1,9 +1,11 @@
 package Entity
 
 import androidx.room.ColumnInfo
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 
+@Entity(tableName = "Students")
 data class Student(
 
     @PrimaryKey(autoGenerate = true) val ID: Int,
