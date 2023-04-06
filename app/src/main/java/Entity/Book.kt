@@ -1,9 +1,10 @@
 package Entity
 
+@Entity(tableName = "Books")
+data class Book (
+    @PrimaryKey var bookName: String,
+    @ColumnInfo(name = author)var authorName: String,
+            var description: String){
 
-class Book (var bookName: String, var AuthorName: String, var Description: String){
-    var myBookName: String = bookName
-    var myAuthorName: String = AuthorName
-    var myDescription : String = Description
 
 }
