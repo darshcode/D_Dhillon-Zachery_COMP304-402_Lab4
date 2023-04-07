@@ -7,14 +7,14 @@ import androidx.room.*
 //this object contains methods for accessing our sql database.
 @Dao
 interface BookDao {
-    @Query("Select * From Books")//needs fixing
-    suspend fun getBooks(): LiveData<List<Book>>
+    @Query("Select * From Books_table")//removed suspend annotation!
+    fun getBooks(): LiveData<List<Book>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(book: Book)
 
-    @Query("Delete From Books")
-    suspend fun deleteAll()         //no assignment
+    @Update
+    suspend fun update(book: Book)         //no assignment
 
     @Delete()
     suspend fun delete(book: Book)
