@@ -1,7 +1,7 @@
-package Model
+package com.example.d_dhillon_zachery_comp304_402_lab4.Model
 
-import Entity.Book
-import Model.DAO.BookDao
+import com.example.d_dhillon_zachery_comp304_402_lab4.Entity.Book
+import com.example.d_dhillon_zachery_comp304_402_lab4.Model.DAO.BookDao
 import androidx.lifecycle.LiveData
 
 
@@ -11,7 +11,7 @@ import androidx.lifecycle.LiveData
 
         // Room executes all queries on a separate thread.
         // Observed Flow will notify the observer when the data has changed.
-        //val allBooks: LiveData<List<Book>> = bookDao.getBooks()
+        val allBooks: LiveData<List<Book>> = bookDao.getBooks()
 
         // By default Room runs suspend queries off the main thread, therefore, we don't need to
         // implement anything else to ensure we're not doing long running database work

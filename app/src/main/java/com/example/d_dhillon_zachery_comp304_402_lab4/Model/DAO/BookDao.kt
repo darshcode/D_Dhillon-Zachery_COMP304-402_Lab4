@@ -1,13 +1,13 @@
-package Model.DAO
+package com.example.d_dhillon_zachery_comp304_402_lab4.Model.DAO
 
-import Entity.Book
+import com.example.d_dhillon_zachery_comp304_402_lab4.Entity.Book
 import androidx.lifecycle.LiveData
 import androidx.room.*
 
 //this object contains methods for accessing our sql database.
 @Dao
 interface BookDao {
-    @Query("Select * From Books Order By Book")//needs fixing
+    @Query("Select * From Books")//needs fixing
     suspend fun getBooks(): LiveData<List<Book>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)

@@ -1,9 +1,9 @@
-package Model.DB
+package com.example.d_dhillon_zachery_comp304_402_lab4.Model.DB
 
-import Entity.Book
-import Entity.Librarian
-import Entity.Student
-import Model.DAO.BookDao
+import com.example.d_dhillon_zachery_comp304_402_lab4.Entity.Book
+import com.example.d_dhillon_zachery_comp304_402_lab4.Entity.Librarian
+import com.example.d_dhillon_zachery_comp304_402_lab4.Entity.Student
+import com.example.d_dhillon_zachery_comp304_402_lab4.Model.DAO.BookDao
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
@@ -14,7 +14,7 @@ import androidx.room.RoomDatabase
     @Database(entities = [Book::class, Librarian::class, Student::class], version = 1, exportSchema = false)
     public abstract class MyDataBase : RoomDatabase() {
 
-        abstract fun wordDao(): BookDao
+        abstract fun bookDao(): BookDao
 
         companion object {
             // Singleton prevents multiple instances of database opening at the

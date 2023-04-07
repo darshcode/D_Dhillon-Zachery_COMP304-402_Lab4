@@ -1,6 +1,6 @@
-package ViewModel
+package com.example.d_dhillon_zachery_comp304_402_lab4.ViewModel
 
-import Model.Repository
+import com.example.d_dhillon_zachery_comp304_402_lab4.Model.Repository
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 
