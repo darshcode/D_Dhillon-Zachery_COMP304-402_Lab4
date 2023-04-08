@@ -16,6 +16,7 @@ import androidx.room.RoomDatabase
 
         abstract fun bookDao(): BookDao
 
+
         companion object {
             // Singleton prevents multiple instances of database opening at the
             // same time.

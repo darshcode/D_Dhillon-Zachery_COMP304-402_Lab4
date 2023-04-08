@@ -13,6 +13,7 @@ import java.util.List;
 
 @Dao
 interface LibrarianDao{
+
 //    @Query("select * from librarians_table")
 //    suspend fun getLibrarians(): LiveData<List<Librarian>>
 //

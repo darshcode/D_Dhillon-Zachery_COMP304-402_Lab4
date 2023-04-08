@@ -12,6 +12,4 @@ class Student(
     @ColumnInfo(name = "Last Name") val lName: String,
     @ColumnInfo(name = "Password") var password: String,
     //@ColumnInfo(name = "Rented Books") var rentedBooks :List<Book>
-    ) {
-//code goes here
-}
+    )

@@ -10,6 +10,4 @@ class Librarian(
     @ColumnInfo(name = "First Name") val fName: String,
     @ColumnInfo(name = "Last Name") val lName: String,
     @ColumnInfo(name = "Password") var password: String
-) {
-//code goes here
-}
+)

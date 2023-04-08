@@ -8,9 +8,7 @@ import androidx.room.PrimaryKey
 class Book(
     @PrimaryKey(autoGenerate = true) val ISBN: Int,
     @ColumnInfo(name = "Name") val bookName: String,
-    @ColumnInfo(name = "Author Name") val authorName: String,
+    @ColumnInfo(name = "AuthorName") val authorName: String,
     @ColumnInfo(name = "Genre") val genere: String,
     @ColumnInfo(name = "description") val description: String
-) {
-    //code goes here.
-}
+)

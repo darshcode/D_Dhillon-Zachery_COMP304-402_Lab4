@@ -3,6 +3,7 @@ package com.example.d_dhillon_zachery_comp304_402_lab4.Model
 import com.example.d_dhillon_zachery_comp304_402_lab4.Entity.Book
 import com.example.d_dhillon_zachery_comp304_402_lab4.Model.DAO.BookDao
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.asLiveData
 
 
 // Declares the DAO as a private property in the constructor. Pass in the DAO
